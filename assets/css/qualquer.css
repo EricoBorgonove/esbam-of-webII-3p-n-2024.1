@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.item{
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+.div1{
+    width: 40%;
+}
+.div2{
+    width: 30%;
+}
+.div3{
+    width: 20%;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgba(205, 124, 124, 0.642);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.direita{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.esquerda{
+    margin-top: 5%;
+    width: 36%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.item{
+    background-color: white;
+    margin: 1%;
+    padding: 3%;
+    min-width: 150px;
+    max-width: 250px;
+    text-align: center;
+}
+.item:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+h4{
+    font-size: 2rem;
+    margin: 0;
+}
+
+

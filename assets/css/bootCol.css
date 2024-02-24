@@ -1,0 +1,16 @@
+.bg-azul{
+    background-color: blueviolet;
+    height: 100vh;
+}
+.div-quad {
+    border: 3px solid black;
+    height: 150px;
+
+    background-color: azure;
+    color: red;
+    font-size: 4rem;
+    text-align: center;
+}
+.tamanho{
+    height: 500px;
+}
