@@ -1,0 +1,38 @@
+:root{ /*variáveis de css*/
+    --black: #090809;
+    --primary: #F40000;
+    --secondary: #F44E3F;
+    --light: #F4796B;
+    --other1: #F4998D;
+    --other: #f5b3aa;
+    --bg-color: #f4cac5;
+}
+html::-webkit-scrollbar{ /* largura*/
+    width: 15px;
+}
+html::-webkit-scrollbar-thumb{ /*barra*/
+    border-radius: 10px;
+    background: var(--primary);
+}
+html::-webkit-scrollbar-track{ /*fundo*/
+    background: var(--bg-color);
+}
+body{
+    height: 100vh;
+    background-color: var(--other);
+}
+nav{
+    background-color: var(--other1);
+}
+.main-format{
+    background-color: var(--bg-color);
+    height: 100vh;
+    border-radius: 10px;
+}
+.color-text{
+    color: var(--black);
+}
+.bg-nav{
+    background-color: rgba(255, 255, 255,0.5);
+    border: none;
+}
