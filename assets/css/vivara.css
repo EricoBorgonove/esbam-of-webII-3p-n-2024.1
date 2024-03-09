@@ -17,10 +17,7 @@ html::-webkit-scrollbar-thumb{ /*barra*/
 html::-webkit-scrollbar-track{ /*fundo*/
     background: var(--bg-color);
 }
-body{
-    height: 100vh;
-    background-color: var(--other);
-}
+
 nav{
     background-color: var(--other1);
 }
@@ -35,4 +32,17 @@ nav{
 .bg-nav{
     background-color: rgba(255, 255, 255,0.5);
     border: none;
+}
+.tm-img{
+    width: 100%;
+}
+h3, h5{
+    font-size: 3rem;
+}
+.p-2{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.bg-rosa{
+    background-color: var(--other);
 }
