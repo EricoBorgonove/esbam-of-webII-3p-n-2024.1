@@ -12,7 +12,7 @@ html::-webkit-scrollbar{ /* largura*/
 }
 html::-webkit-scrollbar-thumb{ /*barra*/
     border-radius: 10px;
-    background: var(--primary);
+    background: var(--primary); 
 }
 html::-webkit-scrollbar-track{ /*fundo*/
     background: var(--bg-color);
@@ -45,4 +45,7 @@ h3, h5{
 }
 .bg-rosa{
     background-color: var(--other);
+}
+.teste{
+    height: 200px;
 }
