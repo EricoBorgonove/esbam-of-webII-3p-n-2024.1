@@ -7,6 +7,7 @@
     --other: #f5b3aa;
     --bg-color: #f4cac5;
 }
+
 html::-webkit-scrollbar{ /* largura*/
     width: 15px;
 }
@@ -17,8 +18,7 @@ html::-webkit-scrollbar-thumb{ /*barra*/
 html::-webkit-scrollbar-track{ /*fundo*/
     background: var(--bg-color);
 }
-
-nav{
+.nav-principal{
     background-color: var(--other1);
 }
 .main-format{
@@ -48,4 +48,14 @@ h3, h5{
 }
 .teste{
     height: 200px;
+}
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+.btn-redondo{
+    border-radius: 50%;
+}
+.txt-pq{
+    font-size: 0.9rem;
 }
